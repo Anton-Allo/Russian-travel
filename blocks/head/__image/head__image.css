@@ -1,0 +1,34 @@
+.head__image {
+  margin-top: 64px;
+  max-width: 984px;
+  max-height: 615px;
+}
+
+@media screen and (max-width: 1120px) {
+  .head__image {
+    max-width: 928px;
+    max-height: 580px;
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .head__image {
+    max-width: 768px;
+    max-height: 480px;
+  }
+}
+
+@media screen and (min-width: 322px) and (max-width: 480px) {
+  .head__image {
+    width: 100%;
+  }
+}
+  
+@media screen and (max-width: 321px) {
+  .head__image {
+    max-width: 320px;
+    max-height: 200px;
+    margin-top: 40px;
+  }
+}
