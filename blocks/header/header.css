@@ -21,14 +21,10 @@
 
 @media screen and (max-width: 480px) {
   .header {
+    margin-top: 16px;
     max-width: 288px;
-    min-height: 42px;
   }
   .header__logo {
     max-width: 142px;
-  }
-  .header__lang-link {
-    font-size: 18px;
-    line-height: 111%;
   }
 }
