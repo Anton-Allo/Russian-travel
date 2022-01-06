@@ -10,22 +10,20 @@
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 940px) {
   .head__image {
     max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .head__image {
     max-height: 480px;
   }
 }
 
-@media screen and (min-width: 322px) and (max-width: 480px) {
-  .head__image {
-    width: 100%;
-  }
-}
-  
 @media screen and (max-width: 321px) {
   .head__image {
-    max-width: 320px;
     max-height: 200px;
   }
 }
